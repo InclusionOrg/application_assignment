@@ -28,5 +28,5 @@ Please include the url to your forked repository with the fixed webserver in you
 
 ## References
 
-- [Random Movie Quotes NPM Docummentation](https://www.npmjs.com/package/random-movie-quotes)
+- [Random Movie Quotes NPM Documentation](https://www.npmjs.com/package/random-movie-quotes)
 - [How to contribute to a github project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
