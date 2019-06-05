@@ -34,3 +34,5 @@ Please include the url to your forked repository with the fixed webserver in you
 ## How to Use
 
 This app is designed to run locally on your machine so after cloning the repo, simply run the command `npm start` from the command line then visit your local host at port 3000: http://localhost:3000/
+
+Refresh the page to see a different quote!
