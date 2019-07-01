@@ -26,6 +26,9 @@ The finished project:
 
 Please include the url to your forked repository with the fixed webserver in your application to Inclusion's program.
 
+## How to Run
+Open the Terminal, CD into the root of application_assignment, type "node index" and press enter, finally navigate to http://localhost:3000.
+
 ## References
 
 - [Random Movie Quotes NPM Docummentation](https://www.npmjs.com/package/random-movie-quotes)
