@@ -1,5 +1,10 @@
 # Assignment
 
+- You need to make sure to install the npm package for random-movie-quotes.
+- In the root of the directory run this command in the terminal: npm i random-movie-quotes
+- Now you can run the file using this command:  node index
+- Go to your web browser and type in https://localhost:3000
+
 ## Objectives
 
 By the end of this project you will:
@@ -25,6 +30,9 @@ The finished project:
 ## Submission Requirements
 
 Please include the url to your forked repository with the fixed webserver in your application to Inclusion's program.
+
+## How to Run
+Open the Terminal, CD into the root of application_assignment, type "node index" and press enter, finally navigate to http://localhost:3000.
 
 ## References
 
