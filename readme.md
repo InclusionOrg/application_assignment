@@ -22,6 +22,10 @@ The finished project:
 
 ![working app](app.gif)
 
+## How to run the node server 
+    -Make sure to run npm install to run dependencies 
+    -To start the server node index.js  
+
 ## Submission Requirements
 
 Please include the url to your forked repository with the fixed webserver in your application to Inclusion's program.
