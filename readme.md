@@ -22,6 +22,12 @@ The finished project:
 
 ![working app](app.gif)
 
+## How to Run the Application
+In VisualStudio:
+- open the terminal
+- nodemon start
+- go to chrome/firefox and copy and paste: https://3000
+
 ## Submission Requirements
 
 Please include the url to your forked repository with the fixed webserver in your application to Inclusion's program.
