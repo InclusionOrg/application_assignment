@@ -1,5 +1,11 @@
 # Assignment
 
+## How to Run
+
+- `npm install` to install dependencies
+- `npm start` to run server
+- open http://localhost:3000/ in a browser to use application
+
 ## Objectives
 
 By the end of this project you will:
