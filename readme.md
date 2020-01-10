@@ -1,5 +1,24 @@
 # Assignment
 
+## Solution
+
+The bug we were encountering was a 500 Internal Server Error, digging deeper we see the error message in our terminal indicated a `ReferenceError` (`quotes` is not defined). We first look at the script that is supposed to be displaying the movie quotes in main.js and drop a debugger in the fetch request. We see it is returning the aforementioned 500 error and looking into our index.js where the `/quotes` endpoint resides, we see that culprit of our reference error `quotes` is being referenced here (We could've also just searched our files for `quotes` to see where it is being referenced, but I do like being methodical with debuggers). The `quotes` variable is never defined and so invoking the `getQuote()` method on this undefined object throws the reference error. Looking at the references at the bottom of this README we see mention of a random-movie-quotes package; upon examining the link we see the package includes a `getQuote()` method that returns a random movie quote string.
+
+The steps taken to remedy are as follows:
+Dan seems to have neglected to install the random-movie-quotes package he is attempting to use to generate movie quotes. Package.json was updated with the appropriate dependencies and package was installed. The module was then required and set to the `quotes` variable in the file where the package's getQuotes() method was being called. 
+
+## Installation
+
+- Download or clone this repo onto your local machine
+- In your terminal, navigate to the root folder `application_assignment`
+- Execute the following commands in your terminal:
+    - `npm install` to install project dependencies
+    - `node index.js` to spin up local server
+- Navigate to http://localhost:3000/ in your browser to view a random movie quote
+- Refresh the page to see another movie quote
+- ???
+- Profit
+
 ## Objectives
 
 By the end of this project you will:
