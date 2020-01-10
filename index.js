@@ -12,4 +12,4 @@ app.get('/quote', (req, res) => {
 });
 
 
-app.listen(port, () => console.log(`Awesome app listening on port ${port}!`));
+app.listen(port, () => console.log(`Awesome app listening on port ${port}! Visit 'localhost:3000' in a browser to check it out!`));
