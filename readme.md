@@ -1,3 +1,13 @@
+# Getting Started
+
+To run this app:
+
+- open a terminal and run`git clone https://github.com/bazb0t/application_assignment.git`
+- run `cd application_assignment`
+- run `node index.js`
+- open a browser and go to <a href="localhost:3000">localhost:3000</a>
+- refresh the page to see a new quote!
+
 # Assignment
 
 ## Objectives
@@ -24,7 +34,7 @@ The finished project:
 
 ## Submission Requirements
 
-Please include the url to your forked repository with the fixed webserver in your application to Inclusion's program.
+- Please include the url to your forked repository with the fixed webserver in your application to Inclusion's program.
 
 ## References
 
