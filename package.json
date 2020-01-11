@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "http-server": "^0.12.1",
+    "random-movie-quotes": "^1.0.3"
   }
 }
