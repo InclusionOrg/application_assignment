@@ -1,14 +1,17 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3000;
 
-app.use(express.static('public'));
+const quotes = require("./lib/quote");
 
-app.get('/quote', (req, res) => {
-  res.json({
-    quote: quotes.getQuote()
-  });
+app.use(express.static("public"));
+
+app.get("/quote", async (req, res, next) => {
+  const quote = await quotes();
+  res.json({ quote });
+  next();
 });
 
-
 app.listen(port, () => console.log(`Awesome app listening on port ${port}!`));
+
+module.exports = app;
