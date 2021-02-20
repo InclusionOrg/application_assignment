@@ -1,32 +1,15 @@
-# Assignment
+# Getting Started
 
-## Objectives
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-By the end of this project you will:
+## Prerequisites
 
-- clone a Github project.
-- install a npm package.
-- debug a piece of code.
+should have node version >= 10.65
 
-## Introduction
+## Installing
 
-Our intern Dan is working on this killer Movie Quotes App that returns a random movie quote. Right now all it does is render a blank screen in the web browser. Fork the repository found here and help Dan fix it.  
-
-## Specifications
-
-The finished project:
-
-- loads a new fact when you refresh the page.
-- runs with no errors.
-- has the readme updated with how to run this web server.
-
-![working app](app.gif)
-
-## Submission Requirements
-
-Please include the url to your forked repository with the fixed webserver in your application to Inclusion's program.
-
-## References
-
-- [Random Movie Quotes NPM Docummentation](https://www.npmjs.com/package/random-movie-quotes)
-- [How to contribute to a github project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
+1. Fork git repository
+2. Load dependencies: in terminal run... npm install
+3. Start Server: in terminal run node index.js
+4. Go to: localhost:3000
+5. Each refresh a new quote appears
